@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+A clean and reusable starter template for building modern web applications using:
 
-## Getting Started
+⚡ Next.js (App Router + TypeScript)
 
-First, run the development server:
+🧠 Redux Toolkit for scalable state management
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+✅ Jest + React Testing Library with ts-jest support
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+💅 Built with developer productivity and project scalability in mind
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🚀 Features
+✅ Next.js 14+ with App Router structure (/app)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+✅ TypeScript support with import aliasing (@/)
 
-## Learn More
+✅ Redux store setup and example slice
 
-To learn more about Next.js, take a look at the following resources:
+✅ Jest configured for .tsx tests (via ts-jest)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✅ Working unit test sample included
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🧪 Ready-to-use test environment for component and logic testing
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🛠️ Quick Start
+bash
+Copy
+Edit
+npm install
+npm run dev     # Start development server
+npm run test    # Run unit tests
+🧱 Folder Structure
+vbnet
+Copy
+Edit
+src/
+├── app/            → App Router pages & layout
+├── components/     → Shared UI components
+├── redux/          → Store & slices
+├── tests/          → Unit tests
+└── styles/         → Global and component-level styles
